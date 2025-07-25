@@ -24,3 +24,5 @@ Gerenciador simples de gastos pessoais feito em Python.
 1. Clone o repositório:
    ```bash
    git clone https://github.com/AnthonyJulkoski/FinaZen.git
+2. Execute o arquivo principal:
+python main.py
