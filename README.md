@@ -1,43 +1,26 @@
-# 🧘 FinanZen – Controle de Gastos Pessoais
+# FinanZen 🧘
 
-Aplicação simples em Python para registrar, armazenar e visualizar gastos do dia a dia.
+Gerenciador simples de gastos pessoais feito em Python.
 
-## 📋 Funcionalidades
+### 🎯 Funcionalidades
 
-- Adicionar um gasto com:
-  - Descrição
-  - Valor
-  - Categoria
-  - Data
-- Listar todos os gastos salvos no arquivo `gastos.json`
+- ✅ Adicionar gasto
+- ✅ Listar todos os gastos
+- ✅ Mostrar total por categoria
+- ✅ Filtrar por categoria
+- ✅ Filtrar por intervalo de datas
+- ✅ Editar gasto
+- ✅ Excluir gasto
+- ✅ Exportar relatório `.txt`
 
-## 💡 Objetivo do Projeto
-
-Este projeto foi desenvolvido com o objetivo de praticar:
-- Lógica de programação
-- Manipulação de arquivos JSON
-- Organização de dados em Python
-- Estrutura de funções e controle de fluxo
-
-## 🧰 Tecnologias utilizadas
+### 📁 Tecnologias usadas
 
 - Python 3
-- JSON (armazenamento de dados)
+- Manipulação de arquivos JSON
+- Manipulação de datas com `datetime`
 
-## 🚀 Como executar
+### 💻 Como executar
 
-1. Clone ou baixe este repositório
-2. Execute o arquivo `main.py`
-3. Escolha as opções no menu:
-   - 1: Adicionar gasto
-   - 2: Listar gastos
-
-## 📌 Próximas funcionalidades (em desenvolvimento)
-
-- Total por categoria
-- Exportar relatório em `.txt`
-- Interface gráfica com Tkinter ou web com Flask
-
----
-
-**Desenvolvido por [Anthony Julkoski] – 2025**
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/AnthonyJulkoski/FinaZen.git
